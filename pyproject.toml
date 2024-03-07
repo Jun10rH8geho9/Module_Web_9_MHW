@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "module-web-9-mhw"
+version = "0.1.0"
+description = ""
+authors = ["Олександр <alexander.zhukov.2012@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+Scrapy = "^2.11.1"
+mongoengine = "^0.28.1"
+itemadapter = "^0.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
